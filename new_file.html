@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> <style>
+        .copy-button {
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+    </style></title>
+	</head>
+	<body>
+		 <button class="copy-button" onclick="copySelected()">批量复制</button>
+		 <li><a href="index.html">返回 </a> 
+		<h3 onclick="toggleSelect(this)">打开视力检测图，看不清的喝。</h3>
+		<h3 onclick="toggleSelect(this)">拿出一张纸，一起扯，扯最少的喝</h3>
+		<h3 onclick="toggleSelect(this)">打开王者荣耀，没有或者最晚进入主界面的喝</h3>
+		<h3 onclick="toggleSelect(this)">拿出手机给大家拍照，打开闪光灯，拍完照闭眼睛的那个喝</h3>
+		<h3 onclick="toggleSelect(this)">打开微信雷达，随机挑一个头像喝</h3>
+		<h3 onclick="toggleSelect(this)">依次打手背，没躲开的喝</h3>
+		<h3 onclick="toggleSelect(this)">手穿过一只腿去摸自己的耳朵，没做到的喝</h3>
+		<h3 onclick="toggleSelect(this)">拿一个不要的杯子 (杯口大的) 大概倒1/3的水，把整个食指全部放进去手沾到水的喝</h3>
+		<h3 onclick="toggleSelect(this)">纸巾对折，折到折不下去的那个喝</h3>
+		<h3 onclick="toggleSelect(this)">把在场所有人的电话号码都发朋友圈，谁的电话响谁喝</h3>
+		<h3 onclick="toggleSelect(this)">抱左右两边的人，落单的人喝</h3>
+		<h3 onclick="toggleSelect(this)">所有人拿着手机，最后一个放手机的喝</h3>
+		<h3 onclick="toggleSelect(this)">掏出身上的物品没有的喝</h3>
+		<h3 onclick="toggleSelect(this)">给大家拍合照另一只手指让大家抓没注意到的人喝。</h3>
+		<h3 onclick="toggleSelect(this)">手机倒计时传到谁那里结束谁就喝</h3>
+		<h3 onclick="toggleSelect(this)">反手摸自己的肚脐没摸到的喝</h3>
+		<h3 onclick="toggleSelect(this)">打开手机计算器0÷0显示的是错误，做不到的喝</h3>
+		<h3 onclick="toggleSelect(this)">抱住你身边的人，另一只手从她后面让大家抓手指，抱住的那个人肯定没注意的嘛，注定要喝了</h3>
+		<h3 onclick="toggleSelect(this)">随机找一个人亲亲，不敢亲的喝酒</h3>
+		<h3 onclick="toggleSelect(this)">拿走果盘上得水果，没拿到的喝</h3>
+		<h3 onclick="toggleSelect(this)">亮出你的首饰，没有带戒指/耳环/项链(仅限首饰)的喝。</h3>
+		<h3 onclick="toggleSelect(this)">跳一些很Sexy的舞蹈动作不会跳或者跳不好的喝。</h3>
+		<h3 onclick="toggleSelect(this)">抓一把花生/瓜子，让大家猜单双数，没猜对的喝。</h3>
+		<h3 onclick="toggleSelect(this)">每个人拿一个般子往上摞，最后摞倒的那个人喝</h3>
+		<h3 onclick="toggleSelect(this)">做一个空中举杯的动作所有人学完后，拿两杯酒放一个人的手上，然后伸出大拇指叠罗汉，拿杯的人没有手，所以只能喝酒了。</h3>
+		<h3 onclick="toggleSelect(this)">公主抱离得最近的女生，不敢抱的喝</h3>
+		<h3 onclick="toggleSelect(this)">没戴帽子的喝</h3>
+		<h3 onclick="toggleSelect(this)">没戴眼镜的喝</h3>
+		<h3 onclick="toggleSelect(this)">手掌朝上伸出去，大家都把手摞上去，闭眼说第几个喝，或者第几个喝第几个喝交杯酒</h3>
+		<h3 onclick="toggleSelect(this)">把小物件藏于手心，让大家猜在哪只手，猜不中的喝。</h3>
+		<h3 onclick="toggleSelect(this)">分成两拨，剪刀石头布，最后赢得两个人喝交杯酒</h3>
+		<h3 onclick="toggleSelect(this)">所有人手指做成ok状，不许动，谁ok的o能被小酒杯穿过，谁就要喝</h3>
+		<h3 onclick="toggleSelect(this)">传冰块，用手心的温度融化冰块，传到谁手里冰块全部融化了，谁喝</h3>
+		<h3 onclick="toggleSelect(this)">所有人轮流往同一个杯子倒酒，谁让杯子里的酒流出来谁喝</h3>
+		<h3 onclick="toggleSelect(this)">蒙住一个人的眼睛，指着一个人问喝不喝? 喝，喝多少? (说不喝就换另外一个人指)</h3>
+		<h3 onclick="toggleSelect(this)">打开手机有什么APP别人没有的就要喝</h3>
+		<h3 onclick="toggleSelect(this)">抱住你身边的任何一个人，假装在模仿拥抱，然后偷偷伸出大拇指让其他人叠罗汉</h3>
+		<h3 onclick="toggleSelect(this)">手机设置30秒的闹钟，从自己开始传手机，手机在谁手上响了谁就喝</h3>
+		<h3 onclick="toggleSelect(this)">倒计时321，竖起大拇指开始叠罗汉，最后一个叠上的喝酒</h3>
+		<h3 onclick="toggleSelect(this)">打开你的微信二维码，谁主动来扫你的喝酒</h3>
+		<h3 onclick="toggleSelect(this)">拿两个酒杯放在其中一个人的左右手上，然后立刻玩抓手指，他肯定是最后一个</h3>
+		<h3 onclick="toggleSelect(this)">口红印在餐巾纸上，在场的男士都要喝</h3>
+		<h3 onclick="toggleSelect(this)">撕纸巾，嘴对嘴传纸巾，每次传都要用嘴撕下来一块，传不下去的人就要喝酒</h3>
+		<h3 onclick="toggleSelect(this)">直接亲自己的Cursh或者同性好友，谁没亲的喝酒</h3>
+		<h3 onclick="toggleSelect(this)">所有的人叠手掌，随便说一个数，说中的人喝酒</h3>
+		<h3 onclick="toggleSelect(this)">迅速坐下，最后一个坐的喝</h3>
+		<h3 onclick="toggleSelect(this)">比身高，比你高的喝。(反之，也可以比谁矮)</h3>
+		<h3 onclick="toggleSelect(this)">场上有喜欢的男生，直接坐他腿上让大家抓手指抓不到的喝</h3>
+		<h3 onclick="toggleSelect(this)">两个女的kiss让对面两男的学，不敢的喝</h3>
+		<h3 onclick="toggleSelect(this)">转空酒瓶，转到谁谁喝</h3>
+		<h3 onclick="toggleSelect(this)">拿出自己的微信二维码，最后扫上的喝</h3>
+		<h3 onclick="toggleSelect(this)">拿出驾考宝典考科目一，没答对的喝</h3>
+		<h3 onclick="toggleSelect(this)">没穿裙子的喝酒</h3>
+		<h3 onclick="toggleSelect(this)">系鞋带，没有鞋带的喝酒</h3>
+		<h3 onclick="toggleSelect(this)">女孩子勾一下内衣肩带或者露出内衣一角，没有的喝酒</h3>
+		<h3 onclick="toggleSelect(this)">拿出一杯酒递给任意一个人，击鼓传花，闭眼背过去大家拍手，当你喊停，就在谁手里谁喝</h3>
+		<h3 onclick="toggleSelect(this)">一杯酒，喝一点再往下传，谁喝完了谁喝</h3>
+		<h3 onclick="toggleSelect(this)">用脖子传一个稍大点的东西，谁掉了谁喝</h3>
+		<h3 onclick="toggleSelect(this)">打开手机指南针，南针指到谁谁喝</h3>
+		<h3 onclick="toggleSelect(this)">放一张纸巾在烟灰缸上面，在纸巾中间放一个般子，每个人拿打火机烧边缘，烧到骰子掉下去的人喝</h3>
+		<h3 onclick="toggleSelect(this)">拿戒指两只手随机放一根手指上，背着手让大家猜，猜中的喝或者猜不中的喝</h3>
+		<h3 onclick="toggleSelect(this)">喝一口酒别咽下去，所有人学着你喝的时候，吐出
+来</h3>
+		<h3 onclick="toggleSelect(this)">嘴对嘴接冰块（或其他物品），接不住或者不敢接的喝</h3>
+		<h3 onclick="toggleSelect(this)">拿一张纸轮流戳洞，谁把纸戳分开了谁喝</h3>
+		<h3 onclick="toggleSelect(this)">石头剪刀布，出一样的凑成一对，没办法凑成对的喝</h3>
+		<h3 onclick="toggleSelect(this)">打开微信头像，示意谁没有你微信的喝</h3>
+		<h3 onclick="toggleSelect(this)">大拇指朝下，倒着往下抓，玩的就是出其不意</h3>
+		<h3 onclick="toggleSelect(this)">跳擦玻璃</h3>
+		<h3 onclick="toggleSelect(this)">pass</h3>
+		<h3 onclick="toggleSelect(this)">下一位喝光</h3>
+		<h3 onclick="toggleSelect(this)">上一位喝光</h3>
+		<h3 onclick="toggleSelect(this)">自己喝光</h3>
+		<h3 onclick="toggleSelect(this)">下一位加倍</h3>
+		<h3 onclick="toggleSelect(this)"></h3>
+		<h3 onclick="toggleSelect(this)"></h3>
+		<h3 onclick="toggleSelect(this)"></h3>
+		<h3 onclick="toggleSelect(this)"></h3>
+		<h3 onclick="toggleSelect(this)"></h3>
+		 <script>
+        function toggleSelect(element) {
+            element.classList.toggle("selected");
+        }
+
+        function copySelected() {
+            var selectedElements = document.querySelectorAll(".selected");
+            var textToCopy = "";
+
+            selectedElements.forEach(function(element) {
+                textToCopy += element.textContent + "\n";
+            });
+
+            if (textToCopy !== "") {
+                // 创建一个临时textarea来容纳要复制的文本
+                var tempTextArea = document.createElement("textarea");
+                tempTextArea.value = textToCopy;
+                document.body.appendChild(tempTextArea);
+                tempTextArea.select();
+                document.execCommand("copy");
+                document.body.removeChild(tempTextArea);
+
+                alert("已复制到剪贴板");
+            } else {
+                alert("请先选择要复制的内容");
+            }
+        }
+    </script>
+	</body>
+</html>
